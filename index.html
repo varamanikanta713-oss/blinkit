@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quick Grocery</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        .header {
+            background: #ffd700;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .search {
+            width: 400px;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .login {
+            margin-left: auto;
+        }
+
+        .banner {
+            background: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .product {
+            background: white;
+            padding: 20px;
+            width: 180px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .product img {
+            width: 130px;
+            height: 130px;
+            object-fit: contain;
+        }
+
+        button {
+            background: green;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+        Quick Grocery
+    </div>
+
+    <input
+        class="search"
+        type="text"
+        placeholder="Search for groceries..."
+    >
+
+    <div class="login">
+        Login
+    </div>
+
+    <div>
+        🛒 Cart
+    </div>
+
+</header>
+
+<section class="banner">
+
+    <h1>Groceries delivered quickly</h1>
+
+    <p>
+        Fresh groceries and daily essentials at your doorstep.
+    </p>
+
+</section>
+
+<h2 style="padding-left:30px;">
+    Popular Products
+</h2>
+
+<div class="products">
+
+    <div class="product">
+        <img src="milk.png">
+        <h3>Milk</h3>
+        <p>₹40</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="bread.png">
+        <h3>Bread</h3>
+        <p>₹35</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="eggs.png">
+        <h3>Eggs</h3>
+        <p>₹70</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="rice.png">
+        <h3>Rice</h3>
+        <p>₹120</p>
+        <button>Add to Cart</button>
+    </div>
+
+</div>
+
+</body>
+</html>
